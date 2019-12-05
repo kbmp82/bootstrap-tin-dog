@@ -1,0 +1,184 @@
+#title{
+
+
+}
+#title h1{
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+color: white;
+margin-bottom: 40px;
+}
+
+.container-fluid{
+  padding: 3% 15% 8%;
+}
+body{
+  font-family: 'Montserrat';
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+background-color: white;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+font-weight: bold;
+font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.download-button{
+  margin: 0 3% 5% 0;
+}
+
+.title-img{
+  width: 45%;
+  transform: rotate(30deg);
+  margin-left: 15%;
+  position: absolute;
+
+}
+
+.features{
+  text-align: center;
+
+}
+.features-section{
+
+position: relative;
+z-index: 1;
+}
+.features .icons{
+  color: salmon;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+.features .icons:hover{
+  color: #ff4c68;
+}
+.features p{
+  color: #8f8f8f;
+}
+h3{
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+/* Testimonials */
+
+#testimonials{
+z-index: 1;
+position: relative;
+  text-align: center;
+  background-color: salmon;
+}
+
+#testimonials h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.testimonial-images{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Credibility section */
+
+#press{
+  background-color: salmon;
+  text-align: center;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel */
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#pricing h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#pricing h3{
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  padding:5% 5%;
+    text-align: center;
+}
+#cta h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 40px;
+
+}
+#footer {
+  padding: 5% 0%;
+  text-align: center;
+}
+#footer p{
+  padding-top: 5%;
+}
+#footer .fa-facebook{
+  padding: 0% 2%;
+}
+#footer .fa-linkedin{
+  padding: 0% 2%;
+}
+#footer .fa-twitter{
+  padding: 0% 2%;
+}
+#footer .fa-instagram{
+  padding: 0% 2%;
+}
+/* Media Queries */
+@media (max-width: 1028px){
+.title-img{
+  position: static;
+  transform: rotate(0deg);
+}
+#title{
+  text-align: center;
+}
+}
